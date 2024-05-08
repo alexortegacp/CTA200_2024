@@ -1,0 +1,184 @@
+   53  cd /mnt/scratch-lustre/student1
+   54  pwd
+   55  mkdir CTA200-2024
+   56  cd CTA200-2024/
+   57  pwd
+   58  mkdir assignmnet1
+   59  mv assignment1 assignment_1
+   60  ls
+   61  cd assignmnet1 assignment_1
+   62  mv assignmnet1 assignment_1
+   63  ls
+   64  touch assignment_1/README.md
+   65  cd assignment_1/
+   66  ls
+   67  vi README
+   68  cd /home/murray
+   69  pwd
+   70  ls
+   71  find Hello_world
+   72  find -Hello_world
+   73  man find
+   74  find -name "Hello_world"
+   75  find -name "Hello_world" -print
+   76  find -name "Hello_world" -print | grep Hel
+   77  find -name "Hello_world" -print 2>/dev/null
+   78  pwd
+   79  find -name "Hello_world" -print 2>/dev/null
+   80  find -name "Hello*" -print 2>/dev/null
+   81  man cp
+   82  cp ./Hello_world.c ./Hello_world.py home/student1/mnt/scratch-lustre/student1
+   83  cp ./Hello_world.c mnt/scratch-lustre/student1
+   84  cd mnt/scratch-lustre/student1
+   85  pwd
+   86  cd ..
+   87  pwd
+   88  ls
+   89  cd student1
+   90  ls
+   91  ls -la
+   92  cd mnt/scratch-lustre/student1
+   93  cd /mnt/scratch-lustre/student1
+   94  cd home/murray
+   95  cd /home/murray
+   96  find -name "Hello*" -print 2>/dev/null
+   97  cp Hello_world.c /home/student1/mnt/scratch-lustre/student1
+   98  cp Hello_world.c /mnt/scratch-lustre/student1
+   99  cd mnt/scratch-lustre/student1
+  100  cd /mnt/scratch-lustre/student1
+  101  ls
+  102  cd home/murray
+  103  find -name "Hello*" -print 2>/dev/null
+  104  find -name "Hello_world.py" -print 2>/dev/null
+  105  ls
+  106  cd home/Murray
+  107  cd /home/Murray
+  108  cd /home/murray
+  109  find -name "Hello*" -print 2>/dev/null
+  110  cp ./tmp/Hello_world.py ./Papers/tmp/Hello_world.c /mnt/scratch-lustre/student1/CTA200_2024
+  111  cp ./tmp/Hello_world.py ./Papers/tmp/Hello_world.c /mnt/scratch-lustre/student1/CTA200_2024/
+  112  cp ./tmp/Hello_world.py ./Papers/tmp/Hello_world.c /mnt/scratch-lustre/student1
+  113  cd /mnt/scratch-lustre/student1
+  114  ls
+  115  cp Hello_world.c Hello_world.py CTA200_2024
+  116  cp Hello_world.c Hello_world.py CTA200-2024
+  117  help mv
+  118  man mv
+  119  mv 
+  120  pwd
+  121  ls
+  122  mv CTA200-2024 CTA200_2024
+  123  ls
+  124  cd CTA200_2024/
+  125  ls
+  126  cp Hello_world.c Hello_world.py assignment_1
+  127  cd assignment_1
+  128  ls
+  129  vi README.md
+  130  rm README
+  131  ls
+  132  cd 
+  133  ls
+  134  cd mnt/scratch-lustre/student1
+  135  cd /mnt/scratch-lustre/student1
+  136  pwd
+  137  ls
+  138  rm Hello_world.c Hello_world.py
+  139  ls
+  140  cd CTA200_2024/
+  141  ls
+  142  rm Hello_world.c Hello_world.py
+  143  ls
+  144  cd assignment_1/
+  145  ls
+  146  mv Hello_world.c Hello_world_Ortega-Cruz-Prieto.c
+  147  mv Hello_world.py Hello_world_Ortega-Cruz-Prieto.py
+  148  gcc Hellow_world_Ortega-Cruz-Prieto.c
+  149  gcc -o Hello_world.x Hello_world_Ortega-Cruz-Prieto.c
+  150  ls
+  151  ./Hello_world.x 
+  152  ./Hello_world_Ortega-Cruz-Prieto.py
+  153  ls -la
+  154  python Hello_world_Ortega-Cruz-Prieto.py 
+  155  load module Python
+  156  module load Python
+  157  module load python
+  158  python Hello_world_Ortega-Cruz-Prieto.py 
+  159  git status
+  160  git
+  161  gwd
+  162  pwd
+  163  cd ..
+  164  pwd
+  165  git clone ssh:git@github.com:CITA/CTA200H.git
+  166  git clone git@github.com:CITA/CTA200H.git
+  167  git clone https://github.com/CITA/CTA200H.git
+  168  ls
+  169  cd CTA200H
+  170  ls
+  171  cd ..
+  172  ls
+  173  git clone https://github.com/alexortegacp/CTA200_2024.git
+  174  cd CTA200H
+  175  ls
+  176  cd ..
+  177  mv CTA200H CTA200_courseContent
+  178  ls
+  179  git clone https://github.com/alexortegacp/CTA200_2024.git
+  180  cd CTA200_2024
+  181  ls
+  182  cd ..
+  183  pwd
+  184  ls 'la
+  185  ls -la
+  186  mv CTA200_2024 CTA200_2024_myFolder
+  187  git clone https://github.com/alexortegacp/CTA200_2024.git
+  188  cd CTA200_2024
+  189  ls
+  190  pwd
+  191  ls -la
+  192  cp ../CTA200_2024_myFolder/* .
+  193  ls -la ../CTA200_2024_myFolder/* .
+  194  cp -r ../CTA200_2024_myFolder/* .
+  195  ls -la
+  196* 
+  197  git add --all
+  198  git commit
+  199  git status
+  200  git push
+  201  ls
+  202  git status
+  203  git push
+  204  pwd
+  205  ls
+  206  cd assignment_1/
+  207  pwd
+  208  ls
+  209  vi Hello_world_Ortega-Cruz-Prieto.*
+  210  vi Hello_world_Ortega-Cruz-Prieto.c
+  211  vi Hello_world_Ortega-Cruz-Prieto.py
+  212  vi Hello_world_Ortega-Cruz-Prieto.c
+  213  gcc Hello_world_Ortega-Cruz-Prieto.c
+  214  gcc -o Hello_world.x Hello_world_Ortega-Cruz-Prieto.c
+  215  ./Hello_world.x
+  216  python Hello_world_Ortega-Cruz-Prieto.py 
+  217  ls
+  218  rm a.out
+  219  ls
+  220  echo ./Hello_world.x > output.c.txt
+  221  ls
+  222  vi output.c.txt
+  223  history
+  224  ./Hello_world.x > output.c.x
+  225  vi output.c.
+  226  ls
+  227  rm output.c.
+  228  rm output.c.x
+  229  ls
+  230  ./Hello_world.x > output.c.txt
+  231  vi output.c.txt 
+  232  python Hello_world_Ortega-Cruz-Prieto.py > output_python.txt
+  233  vi output_python.txt 
+  234  mv output.c.txt output_c.txt
+  235  vi output_c.txt 
+  236  history > history.txt
